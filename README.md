@@ -1,41 +1,8 @@
-# EA Node.js + TypeScript + Mongoose
+HE AGAFAT INFORMACIÓ DE VIDEOS DE YT: https://www.youtube.com/watch?v=-bt_y4Loofg
+https://www.youtube.com/watch?v=c2M-rlkkT5o
+I LA IA M'ha ajudat a resoldre errors de compilació. Per exemple: 
+if (!createDoc) throw new Error("No s'ha pogut crear el document");
+    const createdId = createDoc._id?.toString();
 
-## Requisitos Previos
-
-Asegúrate de tener instalados los siguientes programas en tu sistema:
-
-- [Node.js](https://nodejs.org/) (versión 14.x o superior)
-- [MongoDB](https://www.mongodb.com/) (puede ser local o en la nube a través de MongoDB Atlas)
-- [npm](https://www.npmjs.com/) 
-- [TS] TypeScript
-
-Instalar TypeScript
-```
-npm install -g typescript
-```
-
-## Clonar el proyecto
-
-```
-git clone https://github.com/rocmeseguer/EA-Mongoose
-cd EA-Mongoose
-```
-
-## Dependencias del proyecto
-
-Instalar Mongoose y otras dependencias
-```
-npm install
-```
-
-## Complilación y ejecución
-
-Transpilar de TS a JS
-```
-tsc 
-```
-
-Ejecutar JS
-```
-node dist/mongoogse.js
-```
+Si no es fan aquestes linies anteriorment dona error de STRING | UNDEFINED. D'aquesta manera solucionem errors que ens retorni undefined. 
+    
